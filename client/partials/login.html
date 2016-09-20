@@ -1,0 +1,10 @@
+<!-- login -->
+<div ng-controller='loginController'>
+  <h3>Login!</h3>
+  <form >
+    Email: <input type="email" ng-model="user.email">
+    Password: <input type="password" ng-model='user.password'>
+    <button type="submit" ng-click='login()'><a href="#/">Login</a></button>
+  </form>
+  <h5> Don't have an account? <a href='#/register'>Register</a></h5>
+</div>
